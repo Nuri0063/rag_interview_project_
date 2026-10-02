@@ -1,0 +1,225 @@
+[
+  {
+    "id": 1,
+    "category": "normal",
+    "question": "Param ne zaman hesabıma geri yatar?",
+    "expected_status": "answered",
+    "actual_status": "answered",
+    "answer": "Paramınızın hesabınıza ne zaman yatacağı, ödeme yönteminize ve iadenin onaylandığı zamana bağlıdır. İade işlemi gönderildiğinde, bankanız veya ödeme sağlayıcınız işlemi tamamlamak için ek süreye ihtiyaç duyabilir. Bu nedenle kesin bir zaman garantisi verilemez ve işlem süresi bankanın, ödeme yönteminin ve haftasonları gibi faktörlerin etkisiyle değişebilir. Destek ekibi, genellikle iade talimatının verildiği tarih ve ödeme referans numarasına göre bilgi verir.",
+    "sources": [
+      {
+        "source_name": "04_customer_help_faq.pdf",
+        "page_start": 2,
+        "page_end": 2,
+        "document_id": "customer-faq",
+        "chunk_id": "customer-faq:8"
+      },
+      {
+        "source_name": "09_internal_operations_bulletins.pdf",
+        "page_start": 4,
+        "page_end": 4,
+        "document_id": "internal-bulletins",
+        "chunk_id": "internal-bulletins:14"
+      },
+      {
+        "source_name": "07_payments_refunds_and_invoicing_guide.pdf",
+        "page_start": 2,
+        "page_end": 2,
+        "document_id": "payments-refunds",
+        "chunk_id": "payments-refunds:5"
+      }
+    ],
+    "result": "PASS",
+    "errors": []
+  },
+  {
+    "id": 2,
+    "category": "normal",
+    "question": "Şifremi unuttum, nasıl sıfırlayabilirim?",
+    "expected_status": "answered",
+    "actual_status": "answered",
+    "answer": "Şifrenizi sıfırlamak için giriş ekranında bulunan \"Şifremi Unuttum\" seçeneğini kullanabilirsiniz. Bu işlem sonucunda, hesabınıza bağlı doğrulanmış iletişim yöntemine bir sıfırlama mesajı gönderilir. Eğer sıfırlama bağlantınızın süresi dolmuşsa, yeni bir sıfırlama mesajı talep edebilirsiniz.",
+    "sources": [
+      {
+        "source_name": "04_customer_help_faq.pdf",
+        "page_start": 5,
+        "page_end": 5,
+        "document_id": "customer-faq",
+        "chunk_id": "customer-faq:19"
+      },
+      {
+        "source_name": "08_account_access_and_security_guide.pdf",
+        "page_start": 1,
+        "page_end": 1,
+        "document_id": "account-security",
+        "chunk_id": "account-security:2"
+      }
+    ],
+    "result": "PASS",
+    "errors": []
+  },
+  {
+    "id": 3,
+    "category": "normal",
+    "question": "Hasarlı gelen ürün için ne yapmalıyım?",
+    "expected_status": "answered",
+    "actual_status": "answered",
+    "answer": "Hasarlı gelen ürün için, mümkünse paketin ve ürünün net fotoğraflarını çekin ve destek ile iletişime geçin. Kargo hasarı gözle görülüyorsa, dosya incelenene kadar ambalajı saklayın.",
+    "sources": [
+      {
+        "source_name": "04_customer_help_faq.pdf",
+        "page_start": 3,
+        "page_end": 3,
+        "document_id": "customer-faq",
+        "chunk_id": "customer-faq:13"
+      }
+    ],
+    "result": "PASS",
+    "errors": []
+  },
+  {
+    "id": 4,
+    "category": "normal",
+    "question": "Faturamı nereden bulabilirim?",
+    "expected_status": "answered",
+    "actual_status": "answered",
+    "answer": "Faturanızı, elektronik teslimat destekleniyorsa sipariş kaydınızdan bulabilirsiniz. Eğer faturanız eksikse veya yanlış bilgi içeriyorsa, sipariş numarasıyla destek ekibiyle iletişime geçmeniz gerekmektedir.",
+    "sources": [
+      {
+        "source_name": "04_customer_help_faq.pdf",
+        "page_start": 4,
+        "page_end": 4,
+        "document_id": "customer-faq",
+        "chunk_id": "customer-faq:18"
+      }
+    ],
+    "result": "PASS",
+    "errors": []
+  },
+  {
+    "id": 5,
+    "category": "normal",
+    "question": "İade talebini nasıl oluşturabilirim?",
+    "expected_status": "answered",
+    "actual_status": "answered",
+    "answer": "İade talebini oluşturmak için hesabınıza giriş yapın, Siparişler bölümüne gidin, ilgili siparişi seçin ve ürün için sunulan iade seçeneğini seçin. Bazı mobil uygulama sürümlerinde bu seçenek, sipariş detaylarının altında doğrudan görünebilir.",
+    "sources": [
+      {
+        "source_name": "04_customer_help_faq.pdf",
+        "page_start": 1,
+        "page_end": 1,
+        "document_id": "customer-faq",
+        "chunk_id": "customer-faq:2"
+      }
+    ],
+    "result": "PASS",
+    "errors": []
+  },
+  {
+    "id": 6,
+    "category": "normal",
+    "question": "Standart teslimat ne kadar sürer?",
+    "expected_status": "answered",
+    "actual_status": "answered",
+    "answer": "Standart teslimat genellikle gönderimden sonra 2-5 iş günü içinde tamamlanır. Ancak kampanya dönemleri, uzak bölgeler veya taşıyıcı kaynaklı sorunlar teslimat süresini uzatabilir.",
+    "sources": [
+      {
+        "source_name": "04_customer_help_faq.pdf",
+        "page_start": 3,
+        "page_end": 3,
+        "document_id": "customer-faq",
+        "chunk_id": "customer-faq:10"
+      },
+      {
+        "source_name": "05_shipping_and_delivery_operations_guide.pdf",
+        "page_start": 1,
+        "page_end": 1,
+        "document_id": "shipping-delivery",
+        "chunk_id": "shipping-delivery:3"
+      },
+      {
+        "source_name": "03_customer_service_operations_notes.pdf",
+        "page_start": 2,
+        "page_end": 2,
+        "document_id": "customer-service-notes",
+        "chunk_id": "customer-service-notes:9"
+      }
+    ],
+    "result": "PASS",
+    "errors": []
+  },
+  {
+    "id": 7,
+    "category": "version",
+    "question": "İade kodu ne kadar süre geçerli?",
+    "expected_status": "answered",
+    "actual_status": "answered",
+    "answer": "İade kodu genellikle 10 gün süreyle geçerlidir.",
+    "sources": [
+      {
+        "source_name": "02_return_process_and_customer_requests_2026.pdf",
+        "page_start": 3,
+        "page_end": 3,
+        "document_id": "return-policy-v2",
+        "chunk_id": "return-policy-v2:12"
+      }
+    ],
+    "result": "PASS",
+    "errors": []
+  },
+  {
+    "id": 8,
+    "category": "conflict",
+    "question": "Ürünü kaç gün içinde iade edebilirim?",
+    "expected_status": "conflict",
+    "actual_status": "conflict",
+    "answer": "Ürünü iade etmek için çoğunlukla teslimattan itibaren 14 gün içinde talep açmanız gerekmektedir. Ancak bazı kaynaklarda iade süresinin 30 gün olarak belirtildiği de görülmektedir. Bu nedenle ürün kategorisine veya kampanyaya göre iade süresi 14 gün veya 30 gün arasında değişebilir.",
+    "sources": [
+      {
+        "source_name": "04_customer_help_faq.pdf",
+        "page_start": 1,
+        "page_end": 1,
+        "document_id": "customer-faq",
+        "chunk_id": "customer-faq:1"
+      },
+      {
+        "source_name": "09_internal_operations_bulletins.pdf",
+        "page_start": 1,
+        "page_end": 1,
+        "document_id": "internal-bulletins",
+        "chunk_id": "internal-bulletins:2"
+      },
+      {
+        "source_name": "02_return_process_and_customer_requests_2026.pdf",
+        "page_start": 1,
+        "page_end": 1,
+        "document_id": "return-policy-v2",
+        "chunk_id": "return-policy-v2:3"
+      }
+    ],
+    "result": "PASS",
+    "errors": []
+  },
+  {
+    "id": 9,
+    "category": "unanswerable",
+    "question": "Uluslararası gönderim yapıyor musunuz?",
+    "expected_status": "insufficient_evidence",
+    "actual_status": "insufficient_evidence",
+    "answer": "Mevcut dokümanlarda bu soruyu yanıtlamak için yeterli bilgi bulunamadı.",
+    "sources": [],
+    "result": "PASS",
+    "errors": []
+  },
+  {
+    "id": 10,
+    "category": "unanswerable",
+    "question": "Üyelik ücreti ne kadar?",
+    "expected_status": "insufficient_evidence",
+    "actual_status": "insufficient_evidence",
+    "answer": "Mevcut dokümanlarda bu soruyu yanıtlamak için yeterli bilgi bulunamadı.",
+    "sources": [],
+    "result": "PASS",
+    "errors": []
+  }
+]

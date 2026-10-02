@@ -1,0 +1,109 @@
+[
+  {
+    "id": "return-window-current",
+    "question": "Ürünü teslim aldıktan sonra iade talebini en geç kaç gün içinde açabilirim?",
+    "relevant_document_ids": ["return-policy-v2"],
+    "expected_family_id": "return-policy",
+    "expected_version": "2.0",
+    "expected_fact": "30 calendar days",
+    "expected_status": "conflict"
+  },
+  {
+    "id": "return-window-paraphrase",
+    "question": "İade için teslim tarihinden itibaren ne kadar sürem var?",
+    "relevant_document_ids": ["return-policy-v2"],
+    "expected_family_id": "return-policy",
+    "expected_version": "2.0",
+    "expected_fact": "30 calendar days",
+    "expected_status": "conflict"
+  },
+  {
+    "id": "return-shipping-code-validity",
+    "question": "Oluşturulan iade kargo kodu kaç gün kullanılabilir?",
+    "relevant_document_ids": ["return-policy-v2"],
+    "expected_family_id": "return-policy",
+    "expected_version": "2.0",
+    "expected_fact": "10 days",
+    "expected_status": "answered"
+  },
+  {
+    "id": "refund-timing",
+    "question": "İadem onaylandıktan sonra para hesabımda ne zaman görünür?",
+    "relevant_document_ids": ["customer-faq", "payments-refunds", "return-policy-v2"],
+    "expected_fact": "Refund timing depends on the payment method and approval status.",
+    "expected_status": "answered"
+  },
+  {
+    "id": "invoice-request",
+    "question": "Siparişimin faturasını nasıl alabilirim?",
+    "relevant_document_ids": ["payments-refunds", "customer-faq"],
+    "expected_fact": "Invoice handling is covered by the payments and invoicing guidance.",
+    "expected_status": "answered"
+  },
+  {
+    "id": "password-reset",
+    "question": "Şifremi unuttum, hesabıma yeniden nasıl giriş yaparım?",
+    "relevant_document_ids": ["account-security", "customer-faq", "internal-bulletins"],
+    "expected_fact": "Use the password recovery flow.",
+    "expected_status": "answered"
+  },
+  {
+    "id": "failed-sign-in",
+    "question": "Çok fazla deneme yaptım ve hesabıma giriş yapamıyorum, ne yapmalıyım?",
+    "relevant_document_ids": ["account-security", "customer-service-notes"],
+    "expected_fact": "Sign-in protection can temporarily limit repeated attempts.",
+    "expected_status": "answered"
+  },
+  {
+    "id": "damaged-product",
+    "question": "Kargodan hasarlı çıkan ürün için hangi adımları izlemeliyim?",
+    "relevant_document_ids": ["customer-faq", "warranty-support", "return-policy-v2"],
+    "expected_fact": "Take photos and contact support for delivery damage.",
+    "expected_status": "answered"
+  },
+  {
+    "id": "warranty-support",
+    "question": "Ürünün garanti kapsamında olup olmadığını nasıl kontrol edebilirim?",
+    "relevant_document_ids": ["warranty-support", "customer-faq"],
+    "expected_fact": "Warranty coverage depends on product and supplier terms.",
+    "expected_status": "answered"
+  },
+  {
+    "id": "shipment-tracking",
+    "question": "Siparişim kargoya verildikten sonra nereden takip edebilirim?",
+    "relevant_document_ids": ["shipping-delivery", "customer-faq"],
+    "expected_fact": "Carrier tracking is used for shipment status.",
+    "expected_status": "answered"
+  },
+  {
+    "id": "delivery-exception",
+    "question": "Kargom gecikti veya teslim edilmedi görünüyorsa ne yapmalıyım?",
+    "relevant_document_ids": ["shipping-delivery", "customer-faq", "internal-bulletins"],
+    "expected_fact": "Delivery exceptions are handled through carrier tracking and support.",
+    "expected_status": "answered"
+  },
+  {
+    "id": "missing-item",
+    "question": "Kutudan bir ürün eksik çıktı, önce neyi kontrol etmeliyim?",
+    "relevant_document_ids": ["customer-faq", "shipping-delivery"],
+    "expected_fact": "Check whether the order was split into more than one shipment.",
+    "expected_status": "answered"
+  },
+  {
+    "id": "return-parcel-tracking",
+    "question": "İade paketimi kargoya verdikten sonra durumunu nasıl izlerim?",
+    "relevant_document_ids": ["return-policy-v2", "shipping-delivery", "customer-service-notes"],
+    "expected_fact": "A return reference is used for operational tracking.",
+    "expected_status": "answered"
+  },
+  {
+    "id": "international-shipping",
+    "question": "Yurt dışına teslimat yapıyor musunuz?",
+    "expected_status": "insufficient_evidence"
+  },
+  {
+    "id": "membership-price",
+    "question": "Üyelik ücretiniz ne kadar?",
+    "expected_status": "insufficient_evidence"
+  }
+]

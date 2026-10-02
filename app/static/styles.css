@@ -1,0 +1,164 @@
+:root {
+  color: #1f2937;
+  background: #f4f6f8;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.page-shell {
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  padding: 24px;
+}
+
+.assistant-card {
+  width: min(100%, 680px);
+  padding: 32px;
+  background: #ffffff;
+  border: 1px solid #d9e0e7;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(31, 41, 55, 0.08);
+}
+
+h1,
+h2,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  margin-bottom: 8px;
+  font-size: 1.75rem;
+}
+
+header p {
+  color: #52606d;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+textarea {
+  width: 100%;
+  resize: vertical;
+  padding: 12px;
+  color: inherit;
+  font: inherit;
+  border: 1px solid #b9c5d0;
+  border-radius: 8px;
+}
+
+textarea:focus {
+  border-color: #2463a5;
+  outline: 3px solid rgba(36, 99, 165, 0.14);
+}
+
+.form-actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 14px;
+}
+
+button {
+  padding: 10px 20px;
+  color: #ffffff;
+  font: inherit;
+  font-weight: 600;
+  background: #2463a5;
+  border: 0;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+button:hover:not(:disabled) {
+  background: #1d5188;
+}
+
+button:disabled {
+  cursor: wait;
+  opacity: 0.65;
+}
+
+.loading-message,
+.notice,
+.error-message {
+  margin: 0;
+}
+
+.loading-message {
+  color: #52606d;
+}
+
+.result {
+  margin-top: 28px;
+  padding-top: 24px;
+  border-top: 1px solid #e2e8f0;
+}
+
+.answer {
+  line-height: 1.6;
+  white-space: pre-wrap;
+}
+
+.notice {
+  margin-bottom: 14px;
+  padding: 10px 12px;
+  color: #7a4b00;
+  background: #fff7df;
+  border: 1px solid #f0d691;
+  border-radius: 7px;
+}
+
+.sources {
+  margin-top: 24px;
+}
+
+.sources h2 {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.sources ul {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sources li {
+  padding: 10px 12px;
+  font-size: 0.92rem;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 7px;
+}
+
+.source-page {
+  display: block;
+  margin-top: 3px;
+  color: #52606d;
+}
+
+.error-message {
+  margin-top: 18px;
+  color: #b42318;
+}
+
+@media (max-width: 560px) {
+  .assistant-card {
+    padding: 24px;
+  }
+}

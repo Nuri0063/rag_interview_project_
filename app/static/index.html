@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nexa Bilgi Asistan&#305;</title>
+    <link rel="stylesheet" href="/static/styles.css">
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="assistant-card" aria-labelledby="page-title">
+        <header>
+          <h1 id="page-title">Nexa Bilgi Asistan&#305;</h1>
+          <p>&#350;irket dok&#252;manlar&#305; hakk&#305;nda sorunuzu yaz&#305;n.</p>
+        </header>
+
+        <form id="question-form">
+          <label for="question">Sorunuz</label>
+          <textarea
+            id="question"
+            name="question"
+            rows="4"
+            placeholder="&#214;rne&#287;in: &#304;ade kodu ne kadar s&#252;re ge&#231;erli?"
+            required
+          ></textarea>
+          <div class="form-actions">
+            <button id="ask-button" type="submit">Sor</button>
+            <p id="loading-message" class="loading-message" hidden aria-live="polite">Yan&#305;t haz&#305;rlan&#305;yor...</p>
+          </div>
+        </form>
+
+        <section id="result" class="result" hidden aria-live="polite">
+          <p id="notice" class="notice" hidden></p>
+          <div id="answer" class="answer"></div>
+          <section id="sources-section" class="sources" hidden aria-labelledby="sources-title">
+            <h2 id="sources-title">Kaynaklar</h2>
+            <ul id="sources-list"></ul>
+          </section>
+        </section>
+
+        <p id="error-message" class="error-message" hidden role="alert"></p>
+      </section>
+    </main>
+    <script src="/static/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+documents:
+  - id: return-policy-v1
+    source_name: 01_return_and_exchange_procedure_2024.pdf
+    family_id: return-policy
+    document_type: procedure
+
+  - id: return-policy-v2
+    source_name: 02_return_process_and_customer_requests_2026.pdf
+    family_id: return-policy
+    document_type: procedure
+
+  - id: customer-service-notes
+    source_name: 03_customer_service_operations_notes.pdf
+    family_id: customer-service-notes
+    document_type: operations_note
+
+  - id: customer-faq
+    source_name: 04_customer_help_faq.pdf
+    family_id: customer-faq
+    document_type: faq
+
+  - id: shipping-delivery
+    source_name: 05_shipping_and_delivery_operations_guide.pdf
+    family_id: shipping-delivery
+    document_type: guide
+
+  - id: warranty-support
+    source_name: 06_warranty_and_technical_support_guide.pdf
+    family_id: warranty-support
+    document_type: guide
+
+  - id: payments-refunds
+    source_name: 07_payments_refunds_and_invoicing_guide.pdf
+    family_id: payments-refunds
+    document_type: guide
+
+  - id: account-security
+    source_name: 08_account_access_and_security_guide.pdf
+    family_id: account-security
+    document_type: guide
+
+  - id: internal-bulletins
+    source_name: 09_internal_operations_bulletins.pdf
+    family_id: internal-bulletins
+    document_type: internal_notice
